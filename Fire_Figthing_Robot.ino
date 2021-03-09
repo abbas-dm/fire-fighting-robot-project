@@ -86,7 +86,7 @@ void loop() {
     flame = true; 
   }
   
-  while(flame == true){     // Loop to activate pumping action of the robot
+  while(flame == true){     // Loop to activate pumping action
     delay(500);
     digitalWrite(left_motor1, HIGH);
     digitalWrite(left_motor2, HIGH);
